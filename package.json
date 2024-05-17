@@ -1,12 +1,12 @@
 {
   "name": "react-long-press-hook",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Unlock the power of long-press interactions with react-press-and-hold! 🚀 This lightweight and highly customizable React hook lets you easily detect and handle long-press events in your applications. Whether you’re looking to enhance your UI with context menus, drag-and-drop functionality, action confirmations, or interactive tutorials, react-press-and-hold has got you covered.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "type": "module",
   "scripts": {
-    "build": "npx rollup -c"
+    "build": "npx rollup -c && git add . && git commit -m \"build\" && git push"
   },
   "repository": {
     "type": "git",
